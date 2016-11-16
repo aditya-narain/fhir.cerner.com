@@ -42,7 +42,7 @@ List an individual RelatedPersons by its id:
 
 ### Response
 
-<%= headers 200, GET: '[...]/RelatedPerson?identifier=urn:oid:2.16.840.1.113883.3.13.6|TEST_ALIAS_1' %>
+<%= headers 200, GET: '[...]/RelatedPerson?identifier=urn:oid:2.16.840.1.113883.3.13.6|URN:CERNER:IDENTITY-FEDERATION:REALM:687F29DD-69DD-4DE5-ACB1-FD8A2241EF3A:PRINCIPAL:EC4AX54P8GI' %>
 <%= json(:dstu2_relatedperson_bundle) %>
 
 [`reference`]: http://hl7.org/fhir/DSTU2/search.html#reference
