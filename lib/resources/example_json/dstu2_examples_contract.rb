@@ -3,7 +3,7 @@ module Cerner
 
     DSTU2_CONTRACT_ENTRY ||= {
       "resourceType": "Contract",
-      "id": "11325025",
+      "id": "7470218",
       "meta": {
         "versionId": "3"
       },
