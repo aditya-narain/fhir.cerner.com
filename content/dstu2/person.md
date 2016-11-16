@@ -30,7 +30,7 @@ Notes:
 
 ### Response
 
-<%= headers 200, GET: '[...]/Person/14149269' %>
+<%= headers 200, GET: '[...]/Person/4342009' %>
 <%= json(:dstu2_person_bundle) %>
 
 ## Retrieve by id
@@ -41,7 +41,7 @@ List an individual Person by its id:
 
 ### Response
 
-<%= headers 200, GET: '[...]/Person?identifier=urn:oid:2.16.840.1.113883.3.13.6|URN:CERNER:IDENTITY-FEDERATION:REALM:AC193C1A-9763-45E1-9FA2-C1C3AA4BA16D:PRINCIPAL:R53HZ5ZL8ZX' %>
+<%= headers 200, GET: '[...]/Person?identifier=urn:oid:2.16.840.1.113883.3.13.6|URN:CERNER:IDENTITY-FEDERATION:REALM:687F29DD-69DD-4DE5-ACB1-FD8A2241EF3A:PRINCIPAL:YP2QT7JS2SA' %>
 <%= json(:dstu2_person_entry) %>
 
 [`token`]: http://hl7.org/fhir/DSTU2/search.html#token

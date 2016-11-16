@@ -9,7 +9,7 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-open.sandboxcerner.com/dstu2/d075cf8b-3261-481d-97e5-ba6c48d3b41f/Condition?patient=2744123"
+          "url": "https://fhir-open.sandboxcerner.com/dstu2/d075cf8b-3261-481d-97e5-ba6c48d3b41f/Condition?patient=1316024"
         }
       ],
       "entry": [

@@ -31,7 +31,7 @@ Notes:
 
 ### Response
 
-<%= headers 200, GET: '[...]/RelatedPerson/11325025' %>
+<%= headers 200, GET: '[...]/RelatedPerson/7470237' %>
 <%= json(:dstu2_relatedperson_entry) %>
 
 ## Retrieve by id
@@ -42,7 +42,7 @@ List an individual RelatedPersons by its id:
 
 ### Response
 
-<%= headers 200, GET: '[...]/RelatedPerson?identifier=urn:oid:2.16.840.1.113883.3.13.6|URN:CERNER:IDENTITY-FEDERATION:REALM:AC193C1A-9763-45E1-9FA2-C1C3AA4BA16D:PRINCIPAL:PI98N2FK5TN' %>
+<%= headers 200, GET: '[...]/RelatedPerson?identifier=urn:oid:2.16.840.1.113883.3.13.6|NEW-FEDPRINCIPAL-ALIAS-001-MAX-VALIDATION' %>
 <%= json(:dstu2_relatedperson_bundle) %>
 
 [`reference`]: http://hl7.org/fhir/DSTU2/search.html#reference

@@ -3,7 +3,7 @@ module Cerner
 
     DSTU2_PATIENT_1 ||= {
       "resourceType": "Patient",
-      "id": "9827347",
+      "id": "4596007",
       "meta": {
         "versionId": "11",
         "lastUpdated": "2012-09-25T16:04:36.000Z"

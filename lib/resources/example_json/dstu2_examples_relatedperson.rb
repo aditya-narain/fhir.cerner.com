@@ -3,7 +3,7 @@ module Cerner
 
     DSTU2_RELATEDPERSON_ENTRY ||= {
       "resourceType": "RelatedPerson",
-      "id": "11325025",
+      "id": "7470237",
       "meta": {
         "versionId": "3"
       },

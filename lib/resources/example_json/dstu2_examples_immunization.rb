@@ -10,7 +10,7 @@ module Cerner
         "link": [
           {
             "relation": "self",
-            "url": "https://fhir-open.sandboxcerner.com/dstu2/d075cf8b-3261-481d-97e5-ba6c48d3b41f/Immunization?patient=2100031"
+            "url": "https://fhir-open.sandboxcerner.com/dstu2/d075cf8b-3261-481d-97e5-ba6c48d3b41f/Immunization?patient=1316024"
           }
         ],
         "entry": [
@@ -269,7 +269,7 @@ module Cerner
     DSTU2_IMMUNIZATION_1 ||=
       {
         "resourceType": "Immunization",
-        "id": "M22335399",
+        "id": "M5251276",
         "meta": {
            "versionId": "1",
            "lastUpdated": "2016-05-03T10:41:40-0500"
