@@ -36,7 +36,7 @@ Notes:
 
 ## Retrieve by id
 
-List an individual RelatedPersons by its id:
+List an individual RelatedPerson by its id:
 
     GET /RelatedPerson/:id
 
