@@ -13,9 +13,7 @@ List an individual Binary by its id:
 
     GET /Binary/:id
 
-### Implementation Notes
-
-_Binary for [DiagnosticReport]_
+_Implementation Notes - Binary for [DiagnosticReport]_
 
 * Requires both Binary.read and DiagnosticReport.read OAuth2 scopes.
 * Accepts `html`, `text/html` or `application/xhtml+xml` mime types, in addition to JSON
